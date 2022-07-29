@@ -65,6 +65,7 @@ def generate_random_user_agent():
     return Faker().user_agent()
 
 
+
 def get_middle_text(text, prefix, suffix, index=0):
     """
     Simple implementation of obtaining intermediate text
